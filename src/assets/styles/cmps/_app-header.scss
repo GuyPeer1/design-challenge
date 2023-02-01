@@ -1,8 +1,15 @@
 .header-container {
     background-color: $rapBlue;
 
+    .circle {
+        position: absolute;
+        left: 0;
+        overflow: hidden;
+    }
+
     .header {
         display: flex;
+        justify-content: space-between;
         color: $white;
         font-family: Livvic-Bold;
 
@@ -15,14 +22,18 @@
             }
         }
 
-        .card {
-            width: 50%;
+        .header-content {
+
             display: flex;
-            align-items: flex-end;
-            padding-bottom: em(16px);
+            width: 50%;
             font-size: em(18px);
             font-family: Livvic-SemiBold;
+            
+            .card {
+                // padding-bottom: em(16px);
+                align-self: flex-end;
 
+            }
         }
     }
 }
