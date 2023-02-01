@@ -1,0 +1,55 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Livvic-Bold;
+    color: $white;
+
+    .footer-left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .team {
+            display: flex;
+            flex-direction: column;
+            padding-right: em(32px);
+            font-size: em(36px);
+
+            .team-details {
+                font-family: Livvic-SemiBold;
+                font-size: em(8px);
+
+                :first-child {
+                    padding-right: em(16px);
+                }
+            }
+        }
+
+        .address {
+            display: flex;
+            flex-direction: column;
+            font-family: Livvic;
+            font-size: em(10px);
+            line-height: em(25px);
+        }
+
+
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 104px;
+            height: 24px;
+            margin-bottom: em(32px);
+        }
+
+        .copy {
+            font-family: Livvic-SemiBold;
+            font-size: em(10px);
+        }
+    }
+}

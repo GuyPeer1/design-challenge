@@ -1,0 +1,48 @@
+.build {
+    display: flex;
+    color: $white;
+    font-family: Livvic-Bold;
+    // background-color: $midGreen;
+    // grid-column: 1 / -1;
+    padding: 100px 0;
+
+    
+    .build-main {
+        font-size: em(48px);
+        width: 50%;
+    }
+
+    .build-list {
+        width: 50%;
+        
+        li {
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+            
+            .list-img{
+                width: 72px;
+                margin-right: em(16px);
+            }
+            .txt{
+                display: flex;
+                flex-direction: column;
+            }
+            
+            &:first-of-type {
+                padding-top: 0;
+            }
+            
+            .head {
+                color: $lightCoral;
+                padding-bottom: em(12px);
+                font-size: em(18px);
+            }
+            
+            .txt {
+                font-family: Livvic-SemiBold;
+                font-size: em(15px);
+            }
+        }
+    }
+}

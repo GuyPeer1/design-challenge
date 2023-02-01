@@ -1,0 +1,33 @@
+.deliver{
+    display: flex;
+    flex-direction: column;
+    color: $white;
+    font-family: Livvic-Bold;
+
+    .deliver-head{
+        font-size: em(48px);
+        text-align: center;
+        padding-top: em(16px);
+        padding-bottom: em(16px);
+
+        span{
+            color: #79C8c7
+        }
+    }
+
+    .persons{
+        display: flex;
+
+        .person{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            .name{
+                padding: em(16px) 0;
+                color: #79C8c7
+            }
+        }
+    }
+
+}

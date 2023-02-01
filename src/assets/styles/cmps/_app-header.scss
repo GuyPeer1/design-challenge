@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    color: $white;
+    font-family: Livvic-Bold;
+
+    .find {
+        font-size: em(64px);
+        width: 50%;
+
+        .talent {
+            color: $lightCoral
+        }
+    }
+
+    .card {
+        width: 50%;
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: em(16px);
+        font-size: em(18px);
+        font-family: Livvic-SemiBold;
+
+    }
+}

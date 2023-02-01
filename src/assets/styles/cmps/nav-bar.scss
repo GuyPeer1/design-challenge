@@ -1,0 +1,32 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
+    font-family: Livvic-Bold;
+    
+    .nav-first{
+        display: flex;
+        align-items: center;
+        
+        .logo{
+            font-size: em(48px);
+            line-height: em(48px);
+            padding-right: em(24px);
+        }
+        
+        .duo{
+            font-size: 18px;
+            font-family: Livvic-SemiBold;
+            display: flex;
+            align-items: center;
+            padding-top: em(8px);
+        }
+    }
+
+    .contact {
+        border: 1px solid $white;
+        border-radius: em(16px);
+        padding: em(6px) em(14px);
+    }
+}

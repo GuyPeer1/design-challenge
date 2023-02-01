@@ -1,0 +1,17 @@
+.app {
+    display: grid;
+    grid-template-columns: 15px 1fr 15px;
+
+    >* {
+        grid-column: 2;
+    }
+
+    @include for-narrow-layout {
+        grid-template-columns:
+            minmax(30px, 1fr) minmax(auto, $mobile-breakpoint) minmax(30px, 1fr);
+    }
+
+    @include for-wide-layout {
+        grid-template-columns: 140px 1fr 140px;
+    }
+}
