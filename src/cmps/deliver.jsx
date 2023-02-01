@@ -1,6 +1,7 @@
 export function Deliver() {
 
-    return (<section className="deliver">
+    return (<article className="deliver-container full main-layout">
+    <section className="deliver">
         <div className="deliver-head">Delivering real results for top companies. Some of our <span className="success">success stories.</span></div>
         <div className="persons">
             <div className="person">
@@ -19,5 +20,6 @@ export function Deliver() {
             </div>
         </div>
     </section>
+    </article>
     )
 }

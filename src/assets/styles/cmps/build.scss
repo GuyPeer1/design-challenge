@@ -1,3 +1,5 @@
+.build-container{
+background-color: $deepGreen;
 .build {
     display: flex;
     color: $white;
@@ -45,4 +47,5 @@
             }
         }
     }
+}
 }

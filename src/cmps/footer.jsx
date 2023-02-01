@@ -1,5 +1,6 @@
 export function Footer() {
-    return (<section className="footer">
+    return (<article className="footer-container full main-layout">
+    <section className="footer">
         <div className="footer-left">
             <div className="team">
                 myteam
@@ -21,5 +22,6 @@ export function Footer() {
             <span className="copy">Copyright 2020. All Rights Reserved</span>
         </div>
     </section>
+    </article>
     )
 }

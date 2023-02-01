@@ -1,6 +1,7 @@
 export function NavBar() {
 
-    return (<section className="nav-bar">
+    return (<article className="nav-bar-container full main-layout">
+    <section className="nav-bar">
         <div className="nav-first">
             <span className="logo">myteam</span>
             <div className="duo">
@@ -9,5 +10,6 @@ export function NavBar() {
         </div>
         <div className="contact">contact us</div>
     </section>
+    </article>
     )
 }

@@ -1,55 +1,58 @@
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Livvic-Bold;
-    color: $white;
-
-    .footer-left {
+.footer-container {
+    background-color: $darkGreen;
+    .footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        font-family: Livvic-Bold;
+        color: $white;
 
-        .team {
+        .footer-left {
             display: flex;
-            flex-direction: column;
-            padding-right: em(32px);
-            font-size: em(36px);
+            justify-content: space-between;
+            align-items: center;
 
-            .team-details {
-                font-family: Livvic-SemiBold;
-                font-size: em(8px);
+            .team {
+                display: flex;
+                flex-direction: column;
+                padding-right: em(32px);
+                font-size: em(36px);
 
-                :first-child {
-                    padding-right: em(16px);
+                .team-details {
+                    font-family: Livvic-SemiBold;
+                    font-size: em(8px);
+
+                    :first-child {
+                        padding-right: em(16px);
+                    }
                 }
             }
+
+            .address {
+                display: flex;
+                flex-direction: column;
+                font-family: Livvic;
+                font-size: em(10px);
+                line-height: em(25px);
+            }
+
+
         }
 
-        .address {
+        .social {
             display: flex;
             flex-direction: column;
-            font-family: Livvic;
-            font-size: em(10px);
-            line-height: em(25px);
-        }
 
+            img {
+                width: 104px;
+                height: 24px;
+                margin-bottom: em(32px);
+            }
 
-    }
-
-    .social {
-        display: flex;
-        flex-direction: column;
-
-        img {
-            width: 104px;
-            height: 24px;
-            margin-bottom: em(32px);
-        }
-
-        .copy {
-            font-family: Livvic-SemiBold;
-            font-size: em(10px);
+            .copy {
+                font-family: Livvic-SemiBold;
+                font-size: em(10px);
+            }
         }
     }
 }

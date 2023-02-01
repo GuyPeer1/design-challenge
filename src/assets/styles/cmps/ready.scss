@@ -1,21 +1,23 @@
-.ready{
-    display: flex;
-    justify-content: space-between;
-    color: $darkGreen;
+.ready-container {
     background-color: $lightCoral;
-
-    .txt{
-        font-family: Livvic-Bold;
-        font-size: em(48px);
-    }
-
-    .btn{
-        border: 1px solid;
-        font-family: Livvic-SemiBold;
-        border-radius: em(16px);
+    .ready {
         display: flex;
-        align-self: center;
-        padding: em(6px) em(14px);
-        font-size: em(18px);
+        justify-content: space-between;
+        color: $darkGreen;
+
+        .txt {
+            font-family: Livvic-Bold;
+            font-size: em(48px);
+        }
+
+        .btn {
+            border: 1px solid;
+            font-family: Livvic-SemiBold;
+            border-radius: em(16px);
+            display: flex;
+            align-self: center;
+            padding: em(6px) em(14px);
+            font-size: em(18px);
+        }
     }
 }

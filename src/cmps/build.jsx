@@ -1,6 +1,7 @@
 export function Build() {
 
-    return (<section className="build build-full-width">
+    return (<article className="build-container full main-layout">
+    <section className="build build-full-width">
         <div className="build-main">
             Build & manage distributes teams like no one else.
         </div>
@@ -27,6 +28,6 @@ export function Build() {
                 </div>
             </li>
         </ul>
-    </section>
+    </section></article>
     )
 }
