@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c298470.css",
+    "main.js": "/static/js/main.e9a983dd.js",
+    "static/media/Livvic-Bold.ttf": "/static/media/Livvic-Bold.089af19ac41ce144a96c.ttf",
+    "static/media/Livvic-SemiBold.ttf": "/static/media/Livvic-SemiBold.c79c53d29c413ab69adb.ttf",
+    "static/media/bg-pattern-home-1.svg": "/static/media/bg-pattern-home-1.270440fb92b9ec53fe01270f9dd849bb.svg",
+    "index.html": "/index.html",
+    "static/media/rectangle.svg": "/static/media/rectangle.e0876ba5727e9b1231767fd2ccc40e8d.svg",
+    "main.7c298470.css.map": "/static/css/main.7c298470.css.map",
+    "main.e9a983dd.js.map": "/static/js/main.e9a983dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c298470.css",
+    "static/js/main.e9a983dd.js"
+  ]
+}
